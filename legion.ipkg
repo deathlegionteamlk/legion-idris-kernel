@@ -1,0 +1,20 @@
+package legion
+
+version = 0.1.0
+authors = "Demo X Hexa"
+
+sourcedir = "src"
+main = Main
+
+modules =
+    Main,
+    Legion.Boot.Init,
+    Legion.Arch.X86.GDT,
+    Legion.Arch.X86.IDT,
+    Legion.Arch.X86.PIC,
+    Legion.Memory.Allocator,
+    Legion.Process.Scheduler,
+    Legion.Drivers.Serial,
+    Legion.Syscall.Dispatcher,
+    Legion.FS.VFS,
+    Legion.IPC.Pipe
